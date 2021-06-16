@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Razor-626/test_server.git"
+  },
+  "keywords": [
+    "Razor_007BEst"
+  ],
+  "author": "Pavel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.6",
+    "telegraf": "^3.38.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Razor-626/test_server/issues"
+  },
+  "homepage": "https://github.com/Razor-626/test_server#readme"
+}
